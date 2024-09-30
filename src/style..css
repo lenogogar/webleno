@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'Poppins_bold';
+    src: url('./fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins_thin';
+    src: url('./fonts/Poppins-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins_bold';
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #F2F2F2, #F28A80);
+}
+
+nav {
+    background-color: black;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+
+
+section {
+    margin: 0 100px;
+
+}
+
+#inicio {
+    width: 960px;
+    margin: 50px;
+    padding: 40px;
+    display: inline-block;
+    background-color: #D93425;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.imgPerfil {
+    border-radius: 50%;
+    height: 390px;
+    float: left;
+    padding-right: 40px;
+}
+
+.txt1 {
+    color: #F2F2F2;
+    font-size: 30pt;
+}
+
+.txt2 {
+    color: #F2F2F2;
+    font-family: 'Poppins_Thin';
+    padding-right: 30px;
+}
+
+#sobre-mi {
+    width: 600px;
+    margin: 50px;
+    padding: 40px;
+    display: inline-block;
+    background-color: #590202;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+#gustos {
+    width: 1000px;
+    margin: auto;
+    padding: 40px;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.txt3 {
+    color: #F2F2F2;
+    font-family: 'Poppins_Bold';
+    font-size: 50pt;
+    text-align: center;
+}
+
+.txt4 {
+    color: #F2F2F2;
+    font-family: 'Poppins_Thin';
+    font-size: 14pt;
+    padding: 0 100px;
+}
+
+.txt6 {
+    color: black;
+    font-family: 'Poppins_Bold';
+    font-size: 50pt;
+    text-align: center;
+}
+
+.musica1 {
+    width: 400px;
+    border-radius: 100px;
+    padding: 10px 20px;
+    margin-left: 40px;
+
+}
+
+.cajaimagenes {
+
+    margin: 0 auto;
+}
+
+.txt5 {
+    font-family: 'Poppins_Bold';
+    font-size: 30pt;
+    padding-left: 60px;
+    color: #D94A4A;
+}
+
+.cajaimagen2 {
+    text-align: center;
+    color: #590202;
+
+}
+
+.imghobbie {
+    width: 900px;
+    height: 400px;
+    border-radius: 50px;
+    object-fit: cover;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+#gustos2 {
+    width: 1400px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #590202;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.cardimg {
+    height: 400px;
+    float: left;
+    border-radius: 40px;
+    margin: 40px;
+
+}
+
+.card {
+    background-color: black;
+    height: 500px;
+    width: 700px;
+    border-radius: 100px;
+    margin: 0 auto;
+}
+
+.card h3 {
+    padding-top: 50px;
+}
+
+.xd {
+    height: 500px;
+    width: 1000px;
+}
+
+.xd2 {
+    height: 500px;
+    width: 1200px;
+}
+
+#practicas {
+    text-align: center;
+
+}
+
+.boton1 {
+    font-family: 'Poppins_Bold';
+    padding: 30px;
+    background-color: black;
+    color: #F2F2F2;
+    font-size: 20pt;
+    text-decoration: none;
+    border-radius: 20px;
+    margin: 30px;
+
+}
